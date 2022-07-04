@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.highlighted-text-1 {
+  color: rgb(88, 172, 225);
+}
+
+.highlight-text-2 {
+  background-color: yellow;
+}
+
+.wrapper {
+  width: 1024px;
+  margin: auto;
+}
+
+/* header */
+
+header {
+  width: 100%;
+  height: 130px;
+  margin-bottom: 20px;
+
+  background-image: url(./images/img/pattern.png);
+  background-color: rgb(99, 159, 248);
+
+  position: relative;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+
+  position: absolute;
+  bottom: 0;
+
+  padding: 15px;
+}
+
+.subtitle {
+  color: rgb(128, 128, 128);
+}
+
+.date {
+  color: rgb(128, 128, 128);
+}
+
+/* /header */
+
+/* cover */
+
+.cover {
+  padding: 30px 0px 30px 0px;
+}
+
+/* /cover */
+
+/* suggestions
+ */
+
+.img-1 {
+  width: 300px;
+  height: 200px;
+  background-image: url(./images/img/monitor.jpg);
+  background-size: cover;
+
+  margin: 20px 0px 20px 0px;
+}
+.img-2 {
+  width: 300px;
+  height: 200px;
+  background-image: url(./images/img/graph.jpg);
+  background-size: cover;
+
+  margin: 20px 0px 20px 0px;
+}
+
+.text-on-img {
+  color: white;
+  padding: 15px;
+}
+
+.suggestion-title {
+  color: rgb(128, 128, 128);
+  padding: 20px 0px 0px 0px;
+}
+
+/* /suggestions
+ */
+
+/* table */
+
+.column-1 {
+  width: 33%;
+  text-align: left;
+  color: white;
+}
+.column-2 {
+  width: 33%;
+  text-align: left;
+  color: white;
+}
+.column-3 {
+  width: 33%;
+  text-align: left;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: rgb(81, 167, 224);
+}
+
+tbody {
+  background-color: rgb(188, 228, 240);
+}
+
+.t-center {
+  background-color: rgb(255, 255, 255);
+}
+/* / table */
